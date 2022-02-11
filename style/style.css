@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 40px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+input {
+  height: 40px;
+  width: 40px;
+}
+
+.inputing {
+}
+
+.output {
+  text-align: center;
+}
+.form {
+  height: 500px;
+  width: 500px;
+  border: 2px dashed black;
+  background-color: white;
+
+  margin: auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.calcbutton {
+  height: 30px;
+  width: 400px;
+
+  background-color: royalblue;
+  margin-top: 0px;
+
+  font-size: 20px;
+}
+
+.returnButton {
+  height: 30px;
+  width: 320px;
+  color: black;
+  text-decoration: none;
+  background-color: royalblue;
+  margin-top: 5 px;
+  text-align: center;
+  font-size: 20px;
+}
